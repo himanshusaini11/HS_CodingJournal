@@ -2,7 +2,6 @@ import dash
 from dash import dcc, html
 from dash.dependencies import Input, Output, State
 import numpy as np
-import matplotlib.pyplot as plt
 import io
 import base64
 import flask
@@ -10,6 +9,10 @@ from sklearn.model_selection import train_test_split, KFold
 from sklearn.linear_model import LinearRegression
 from sklearn.metrics import mean_squared_error
 from sklearn.datasets import make_regression
+
+import matplotlib
+matplotlib.use('Agg')
+import matplotlib.pyplot as plt
 
 # Initialize Flask server and Dash app
 server = flask.Flask(__name__)
