@@ -217,6 +217,6 @@ def k_fold_cross_validation(X, y, model, k=5):
     average_mse = np.mean(mse_scores)
     return average_mse
 
-# Run the app
+# Run the app.
 if __name__ == '__main__':
     app.run_server(debug=False, host='0.0.0.0', port=8000)
