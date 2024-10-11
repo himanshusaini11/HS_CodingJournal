@@ -18,6 +18,9 @@ import matplotlib.pyplot as plt
 server = flask.Flask(__name__)
 app = dash.Dash(__name__, server=server)
 
+# Ensure the server variable is directly referenced for deployment
+application = app.server
+
 # Function to generate dataset based on user inputs
 def generate_data(n_samples=100, noise=50):
     X, y = make_regression(n_samples=n_samples, n_features=1, noise=noise, random_state=42)
