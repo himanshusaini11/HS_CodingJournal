@@ -210,5 +210,5 @@ def k_fold_cross_validation(X, y, model, k=5):
 
 # Run the app.
 if __name__ == '__main__':
-    port = int(os.environ.get('PORT', 8050))
+    port = int(os.environ.get('PORT', 8000))
     app.run_server(debug=False, host='0.0.0.0', port=port)
