@@ -77,6 +77,6 @@ For any questions or inquiries, please contact:
 - **Himanshu Saini**
 - Email: [himanshusaini.rf@gmail.com](mailto:himanshusaini.rf@gmail.com)
 - GitHub: [himanshusaini11](https://github.com/himanshusaini11)
-- LinkedIn: [Your LinkedIn Profile](https://www.linkedin.com/in/sainihimanshu/)
+- LinkedIn: [Link](https://www.linkedin.com/in/sainihimanshu/)
 
 We hope you find this coding journal useful and look forward to your contributions!
